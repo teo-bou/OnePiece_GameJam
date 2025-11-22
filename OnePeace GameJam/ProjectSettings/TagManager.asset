@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Puzzle
   - Coin
+  - Obstacle
   layers:
   - Default
   - TransparentFX
