@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3[] clonePositions;
     private int targetIndex = -1;
     private const float reachThreshold = 0.01f;
+    public Animator animator;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(launch) && !launched)
         {
             launched = true;
+            animator.SetFloat("Speed", 1);
         }
 
         if (launched)
@@ -42,7 +44,16 @@ public class PlayerMovement : MonoBehaviour
             Vector3 current = transform.position;
             Vector3 target = clonePositions[targetIndex];
 
+            Vector3 direction = target - current;
             transform.position = Vector3.MoveTowards(current, target, moveSpeed * Time.deltaTime);
+
+            // Mirror sprite when moving left by flipping localScale.x
+            if (Mathf.Abs(direction.x) > 0.0001f)
+            {
+                Vector3 ls = transform.localScale;
+                ls.x = Mathf.Abs(ls.x) * (direction.x < 0f ? -1f : 1f);
+                transform.localScale = ls;
+            }
             if (Vector3.Distance(current, target) < reachThreshold)
             {
                 if (targetIndex == 0)
@@ -57,6 +68,10 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
+        }
+        else
+        {
+            animator.SetFloat("Speed", 0);
         }
     }
     private int FindClosestIndex()
@@ -90,6 +105,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Collided with obstacle! You lose!");
             launched = false;
+            animator.SetBool("Clashed", true);
 
         }
         if (collision.gameObject.CompareTag("Puzzle"))
