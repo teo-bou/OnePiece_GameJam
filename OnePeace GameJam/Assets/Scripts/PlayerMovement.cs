@@ -83,4 +83,26 @@ public class PlayerMovement : MonoBehaviour
         return bestIndex;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Collision detected with: " + collision.gameObject.name);
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Collided with obstacle! You lose!");
+            launched = false;
+
+        }
+        if (collision.gameObject.CompareTag("Puzzle"))
+        {
+            Debug.Log("Reached final puzzle piece! You win!");
+            Destroy(collision.gameObject);
+            launched = false;
+        }
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            Debug.Log("Picked up a coin!");
+            Destroy(collision.gameObject);
+        }
+    }
+
 }
