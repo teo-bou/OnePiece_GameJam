@@ -128,7 +128,7 @@ public class PlayerMovement : MonoBehaviour
 
             IEnumerator LoadNextSceneCoroutine()
             {
-                yield return new WaitForSeconds(2f);
+                yield return new WaitForSeconds(1f);
                 UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
             }
         }

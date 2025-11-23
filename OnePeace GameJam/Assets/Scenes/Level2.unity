@@ -4229,6 +4229,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2119144241}
     - target: {fileID: 846812817732884933, guid: 99531a5c75f1540dd8a8978bac8d91c1, type: 3}
+      propertyPath: nextSceneName
+      value: FinalPuzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 846812817732884933, guid: 99531a5c75f1540dd8a8978bac8d91c1, type: 3}
       propertyPath: objectPlacementManager
       value: 
       objectReference: {fileID: 415888197}
