@@ -1,17 +1,20 @@
 using UnityEngine;
-
+using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public GameObject objectPlacementManager;
     public KeyCode launch = KeyCode.Space;
     public KeyCode reset = KeyCode.R;
+    public GameObject DeadDialogs;
+    private bool everStarted = false;
     private bool launched = false;
     private ObjectPlacement objectPlacementScript;
     private Vector3[] clonePositions;
     private int targetIndex = -1;
     private const float reachThreshold = 0.01f;
     public Animator animator;
+    public string nextSceneName = "Puzzle";
 
     void Start()
     {
@@ -37,8 +40,9 @@ public class PlayerMovement : MonoBehaviour
             clonePositions = objectPlacementScript.clonePositions;
         }
 
-        if (Input.GetKeyDown(launch) && !launched)
+        if (Input.GetKeyDown(launch) && !launched && !everStarted)
         {
+            everStarted = true;
             launched = true;
             animator.SetFloat("Speed", 1);
         }
@@ -112,6 +116,7 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Collided with obstacle! You lose!");
             launched = false;
             animator.SetBool("Clashed", true);
+            DeadDialogs.SetActive(true);
 
         }
         if (collision.gameObject.CompareTag("Puzzle"))
@@ -119,6 +124,13 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Reached final puzzle piece! You win!");
             Destroy(collision.gameObject);
             launched = false;
+            StartCoroutine(LoadNextSceneCoroutine());
+
+            IEnumerator LoadNextSceneCoroutine()
+            {
+                yield return new WaitForSeconds(2f);
+                UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneName);
+            }
         }
         if (collision.gameObject.CompareTag("Coin"))
         {

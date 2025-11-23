@@ -42,7 +42,7 @@ public class ObjectPlacement : MonoBehaviour
 
         // 3. IMPORTANT for 2D: Reset the Z-coordinate to 0 (or your desired Z-depth)
         // This prevents the object from being placed far away on the Z-axis.
-        worldPosition.z = -10f; // Assuming your camera is at z = -10 looking towards z = 0
+        worldPosition.z = -2f; // Assuming your camera is at z = -10 looking towards z = 0
 
         // 4. Instantiate the object at the calculated world position
         if (objectToPlace != null)
