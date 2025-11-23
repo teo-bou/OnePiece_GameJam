@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public GameObject objectPlacementManager;
     public KeyCode launch = KeyCode.Space;
+    public KeyCode reset = KeyCode.R;
     private bool launched = false;
     private ObjectPlacement objectPlacementScript;
     private Vector3[] clonePositions;
@@ -26,6 +27,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(reset))
+        {// Reload the current scene
+            UnityEngine.SceneManagement.SceneManager.LoadScene(
+                UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        }
         if (objectPlacementScript != null)
         {
             clonePositions = objectPlacementScript.clonePositions;
