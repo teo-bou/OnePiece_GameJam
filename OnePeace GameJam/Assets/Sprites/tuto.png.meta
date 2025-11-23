@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: f668e45b6e4b74af9aa25ac91c03cfef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7536552348962050782
+    second: tuto_0
+  - first:
+      213: -2231841451348322161
+    second: tuto_1
+  - first:
+      213: -6185576752068107086
+    second: tuto_2
+  - first:
+      213: -3657529831006201333
+    second: tuto_3
+  - first:
+      213: -984430924789828412
+    second: tuto_4
+  - first:
+      213: 1147926271344632770
+    second: tuto_5
+  - first:
+      213: 284109908219414256
+    second: tuto_6
+  - first:
+      213: -716734851304689505
+    second: tuto_7
+  - first:
+      213: -4503216173693439445
+    second: tuto_8
+  - first:
+      213: 5422750237212251621
+    second: tuto_9
+  - first:
+      213: -2040880037717819741
+    second: tuto_10
+  - first:
+      213: -1695317002198007911
+    second: tuto_11
+  - first:
+      213: -6312306189109067774
+    second: tuto_12
+  - first:
+      213: -9058569806842526825
+    second: tuto_13
+  - first:
+      213: -5184680398404674454
+    second: tuto_14
+  - first:
+      213: -7999580604704009489
+    second: tuto_15
+  - first:
+      213: 8838987239865530874
+    second: tuto_16
+  - first:
+      213: 5296752632939794142
+    second: tuto_17
+  - first:
+      213: 1151444377801755919
+    second: tuto_18
+  - first:
+      213: 1357368507315388260
+    second: tuto_19
+  - first:
+      213: -8270560266988751894
+    second: tuto_20
+  - first:
+      213: -4862328052345157228
+    second: tuto_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tuto_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1252
+        width: 234
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d2bf8a199c86790800000000000000
+      internalID: -7536552348962050782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1007
+        width: 425
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8814695608e601e0800000000000000
+      internalID: -2231841451348322161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1257
+        width: 189
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4e01277ba682aa0800000000000000
+      internalID: -6185576752068107086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_3
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1271
+        width: 186
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a1b734ff7dd3dc0800000000000000
+      internalID: -3657529831006201333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_4
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1252
+        width: 246
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c43ef52a499652f0800000000000000
+      internalID: -984430924789828412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_5
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1234
+        width: 241
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3e5df9cd04eef00800000000000000
+      internalID: 1147926271344632770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_6
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1237
+        width: 165
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6469cc47c51f300800000000000000
+      internalID: 284109908219414256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_7
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 1238
+        width: 341
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9077dd3375ad06f0800000000000000
+      internalID: -716734851304689505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_8
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 982
+        width: 496
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b227534cfbc5181c0800000000000000
+      internalID: -4503216173693439445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_9
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1245
+        width: 245
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e593ba1c9a714b40800000000000000
+      internalID: 5422750237212251621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_10
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 850
+        width: 223
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aeb4a23b665da3e0800000000000000
+      internalID: -2040880037717819741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_11
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 847
+        width: 314
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fbe4e2b260978e0800000000000000
+      internalID: -1695317002198007911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_12
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 424
+        width: 208
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20087ac07fe2668a0800000000000000
+      internalID: -6312306189109067774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_13
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 390
+        width: 178
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793821a41ce794280800000000000000
+      internalID: -9058569806842526825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_14
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 454
+        width: 248
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c9823b5a05c08b0800000000000000
+      internalID: -5184680398404674454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_15
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 130
+        width: 222
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe25388d2d7cbf090800000000000000
+      internalID: -7999580604704009489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 112
+        width: 238
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9356e40146aaa70800000000000000
+      internalID: 8838987239865530874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_17
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 97
+        width: 337
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edecd7dc478d18940800000000000000
+      internalID: 5296752632939794142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_18
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 54
+        width: 220
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d8e7d9f80caff00800000000000000
+      internalID: 1151444377801755919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_19
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 85
+        width: 493
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ff5db377756d210800000000000000
+      internalID: 1357368507315388260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_20
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 122
+        width: 235
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3fca8a141193d80800000000000000
+      internalID: -8270560266988751894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuto_21
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 107
+        width: 193
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499cc8ae56a858cb0800000000000000
+      internalID: -4862328052345157228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tuto_0: -7536552348962050782
+      tuto_1: -2231841451348322161
+      tuto_10: -2040880037717819741
+      tuto_11: -1695317002198007911
+      tuto_12: -6312306189109067774
+      tuto_13: -9058569806842526825
+      tuto_14: -5184680398404674454
+      tuto_15: -7999580604704009489
+      tuto_16: 8838987239865530874
+      tuto_17: 5296752632939794142
+      tuto_18: 1151444377801755919
+      tuto_19: 1357368507315388260
+      tuto_2: -6185576752068107086
+      tuto_20: -8270560266988751894
+      tuto_21: -4862328052345157228
+      tuto_3: -3657529831006201333
+      tuto_4: -984430924789828412
+      tuto_5: 1147926271344632770
+      tuto_6: 284109908219414256
+      tuto_7: -716734851304689505
+      tuto_8: -4503216173693439445
+      tuto_9: 5422750237212251621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
