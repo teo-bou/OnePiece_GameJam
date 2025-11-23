@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogs: {fileID: 1278795395}
-  nextSceneName: DialogPtitFrere
+  nextSceneName: DialogPtitFrere2
   next: 32
 --- !u!4 &12037267
 Transform:
