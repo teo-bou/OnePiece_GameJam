@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chaise_dos_0: 755437385142250429
+      chaise_dos_1: -5629157109568552988
+      chaise_dos_2: -7283305528987898661
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

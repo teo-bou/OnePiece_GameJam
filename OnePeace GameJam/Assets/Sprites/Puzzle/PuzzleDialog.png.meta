@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PuzzleDialog_0: 9083024095663111875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

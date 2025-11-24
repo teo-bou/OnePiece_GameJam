@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chateau_0: 832782915900600757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

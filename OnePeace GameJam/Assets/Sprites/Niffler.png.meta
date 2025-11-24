@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Niffler_0: 3100091344353097930
+      Niffler_1: 7381567082163890189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
